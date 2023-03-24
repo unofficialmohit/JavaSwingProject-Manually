@@ -15,7 +15,7 @@ public class user_profile {
     JLabel l11,l12,l13,l14,l15,l16,l17,l18;
     user_profile(String xyz)
     {
-        jf =new JFrame();
+        jf =new JFrame("USER PROFILE");
         jp=new JPanel(new GridLayout(10,1));
         submit=new JButton("Go Back");
         cancel=new JButton("Exit");
